@@ -1,6 +1,11 @@
 body {
   background-color: rgb(7, 5, 88);
 }
+
+video {
+  display: block; /* Ensures it's a block-level element */
+  margin: auto;   /* Centers horizontally */
+}
 h1 {
   text-transform: uppercase;
   font-size: 3rem;
